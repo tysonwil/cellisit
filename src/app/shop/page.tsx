@@ -43,6 +43,9 @@ export default function Shop() {
                 <p>
                   FDA-registered and clinically tested, our waterless extraction process preserves the full potency of natural ingredients, making it safe for even the most sensitive scalps.
                 </p>
+                <p>
+                  Cellisit Shampoo is a gift from science - formulated with functional ingredients for combating hair loss and adding volume, registered with the U.S. FDA.
+                </p>
               </div>
             </div>
 
@@ -84,10 +87,21 @@ export default function Shop() {
                 <div className="py-6">
                   <h3 className="text-sm font-medium text-gray-900">Key Ingredients</h3>
                   <div className="mt-4 space-y-2">
-                    <p className="text-sm text-gray-600">Caffeine (stimulates hair follicles)</p>
-                    <p className="text-sm text-gray-600">Herbal extracts (nourishes scalp)</p>
-                    <p className="text-sm text-gray-600">Biotin (strengthens hair)</p>
-                    <p className="text-sm text-gray-600">Saw Palmetto (reduces DHT)</p>
+                    <p className="text-sm text-gray-600">
+                      <span className="font-semibold">Violet PLM Extract</span> (200,000 ppm) - Essential oils, flavonoids, saponins, vitamin C, salicylic acid, etc.
+                    </p>
+                    <p className="text-sm text-gray-600">
+                      <span className="font-semibold">Broccoli PLM Extract</span> (100,000 ppm) - Sulforaphane, selenium, vitamin A/C/U, beta-carotene, tocopherol, rutin, glutathione, quercetin, etc.
+                    </p>
+                    <p className="text-sm text-gray-600">
+                      <span className="font-semibold">Fish mint PLM Extract</span> (50,000 ppm) - Quircitrin, allicin, vitamin C, etc.
+                    </p>
+                    <p className="text-sm text-gray-600">
+                      <span className="font-semibold">Hasuo PLM Extract</span> (50,000 ppm) - Lecithin, chrysophenol, hyperlim, emodin, etc.
+                    </p>
+                    <p className="text-sm text-gray-600 mt-2 italic">
+                      Total: 400,000 ppm of pure herbal ingredients (40% pure ingredients without water)
+                    </p>
                   </div>
                 </div>
                 <div className="py-6">

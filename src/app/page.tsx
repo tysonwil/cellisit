@@ -16,6 +16,9 @@ export default function Home() {
                 <p className="mt-6 text-lg leading-8 text-gray-600">
                   Cellisit 201 Anti-Hairloss Therapy Shampoo uses revolutionary Plasma PLM Extraction Method to deliver powerful natural ingredients directly to your scalp.
                 </p>
+                <p className="mt-4 text-lg leading-8 text-violet-700 font-semibold">
+                  Cellisit Shampoo is a gift from science.
+                </p>
                 <div className="mt-10 flex items-center gap-x-6">
                   <Link
                     href="/shop"
@@ -65,10 +68,10 @@ export default function Home() {
                       <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                   </div>
-                  FDA-Registered
+                  FDA-Registered Ingredients
                 </dt>
                 <dd className="mt-2 text-base leading-7 text-gray-600">
-                  Our formula meets the highest safety and quality standards, registered with the FDA and KFDA.
+                  Our formula contains functional substances registered with the U.S. FDA and certified by KFDA and OECD as non-toxic.
                 </dd>
               </div>
               <div className="relative pl-16">
@@ -81,7 +84,7 @@ export default function Home() {
                   400,000 ppm Concentration
                 </dt>
                 <dd className="mt-2 text-base leading-7 text-gray-600">
-                  Our unique extraction method delivers an unprecedented concentration of active ingredients.
+                  Contains 40% pure herbal ingredients without water, delivering maximum potency and effectiveness.
                 </dd>
               </div>
               <div className="relative pl-16">
@@ -91,10 +94,10 @@ export default function Home() {
                       <path strokeLinecap="round" strokeLinejoin="round" d="M9.75 3.104v5.714a2.25 2.25 0 01-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 014.5 0m0 0v5.714a2.25 2.25 0 01-.659 1.591L9.5 14.5M9.75 3.104V1.5m0 0h4.5m-4.5 0v1.604m4.5-1.604v1.604" />
                     </svg>
                   </div>
-                  Waterless Extraction
+                  Waterless PLM Extraction
                 </dt>
                 <dd className="mt-2 text-base leading-7 text-gray-600">
-                  Our Plasma PLM Extraction Method uses no water or solvents, preserving the full potency of ingredients.
+                  Our special plasma PLM extraction method uses no water or solvents, preserving the full potency of ingredients and increasing absorption by up to 5 times.
                 </dd>
               </div>
               <div className="relative pl-16">
@@ -104,10 +107,73 @@ export default function Home() {
                       <path strokeLinecap="round" strokeLinejoin="round" d="M15.59 14.37a6 6 0 01-5.84 7.38v-4.8m5.84-2.58a14.98 14.98 0 006.16-12.12A14.98 14.98 0 009.631 8.41m5.96 5.96a14.926 14.926 0 01-5.841 2.58m-.119-8.54a6 6 0 00-7.381 5.84h4.8m2.581-5.84a14.927 14.927 0 00-2.58 5.84m2.699 2.7c-.103.021-.207.041-.311.06a15.09 15.09 0 01-2.448-2.448 14.9 14.9 0 01.06-.312m-2.24 2.39a4.493 4.493 0 00-1.757 4.306 4.493 4.493 0 004.306-1.758M16.5 9a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z" />
                     </svg>
                   </div>
-                  Patented Technology
+                  Free from Harmful Substances
                 </dt>
                 <dd className="mt-2 text-base leading-7 text-gray-600">
-                  Our innovative extraction process is protected by multiple patents and backed by scientific research.
+                  Our extraction process ensures the product is free from harmful substances such as heavy metals and pesticides, making it safe for even sensitive scalps.
+                </dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </div>
+
+      {/* Ingredients Section */}
+      <div className="bg-gray-50 py-24 sm:py-32">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          <div className="mx-auto max-w-2xl lg:text-center">
+            <h2 className="text-base font-semibold leading-7 text-violet-700">Premium Ingredients</h2>
+            <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+              Powerful Natural Extracts
+            </p>
+            <p className="mt-6 text-lg leading-8 text-gray-600">
+              Our formula contains 400,000 ppm of pure herbal ingredients extracted using our special PLM method.
+            </p>
+          </div>
+          <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
+            <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
+              <div className="relative pl-16">
+                <dt className="text-base font-semibold leading-7 text-gray-900">
+                  <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-violet-700">
+                    <span className="text-white font-bold">1</span>
+                  </div>
+                  Violet PLM Extract (200,000 ppm)
+                </dt>
+                <dd className="mt-2 text-base leading-7 text-gray-600">
+                  Rich in essential oils, flavonoids, saponins, vitamin C, and salicylic acid to nourish and strengthen hair.
+                </dd>
+              </div>
+              <div className="relative pl-16">
+                <dt className="text-base font-semibold leading-7 text-gray-900">
+                  <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-violet-700">
+                    <span className="text-white font-bold">2</span>
+                  </div>
+                  Broccoli PLM Extract (100,000 ppm)
+                </dt>
+                <dd className="mt-2 text-base leading-7 text-gray-600">
+                  Contains sulforaphane, selenium, vitamins A/C/U, beta-carotene, tocopherol, rutin, glutathione, and quercetin.
+                </dd>
+              </div>
+              <div className="relative pl-16">
+                <dt className="text-base font-semibold leading-7 text-gray-900">
+                  <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-violet-700">
+                    <span className="text-white font-bold">3</span>
+                  </div>
+                  Fish mint PLM Extract (50,000 ppm)
+                </dt>
+                <dd className="mt-2 text-base leading-7 text-gray-600">
+                  Features quircitrin, allicin, and vitamin C to promote scalp health and combat hair loss.
+                </dd>
+              </div>
+              <div className="relative pl-16">
+                <dt className="text-base font-semibold leading-7 text-gray-900">
+                  <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-violet-700">
+                    <span className="text-white font-bold">4</span>
+                  </div>
+                  Hasuo PLM Extract (50,000 ppm)
+                </dt>
+                <dd className="mt-2 text-base leading-7 text-gray-600">
+                  Contains lecithin, chrysophenol, hyperlim, and emodin to strengthen hair and improve scalp condition.
                 </dd>
               </div>
             </dl>

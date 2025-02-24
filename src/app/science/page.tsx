@@ -29,7 +29,7 @@ export default function Science() {
                   Plasma PLM Extraction Method
                 </p>
                 <p className="mt-6 text-lg leading-8 text-gray-600">
-                  Our patented Plasma PLM Extraction Method represents a breakthrough in natural ingredient extraction technology.
+                  The development of our special plasma PLM extraction method without water has led to the perfection of extraction technology.
                 </p>
                 <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
                   <div className="relative pl-9">
@@ -48,7 +48,7 @@ export default function Science() {
                       </svg>
                       400,000 ppm Concentration.
                     </dt>
-                    <dd className="inline"> Our method achieves an unprecedented concentration of active ingredients, far exceeding the industry standard and delivering maximum effectiveness.</dd>
+                    <dd className="inline"> Our method achieves an unprecedented concentration of active ingredients (40% pure ingredients without water), far exceeding the industry standard and delivering maximum effectiveness.</dd>
                   </div>
                   <div className="relative pl-9">
                     <dt className="inline font-semibold text-gray-900">
@@ -59,7 +59,16 @@ export default function Science() {
                       </svg>
                       Enhanced Absorption.
                     </dt>
-                    <dd className="inline"> The molecular structure of our extract allows for deeper penetration into the scalp and hair follicles, maximizing the delivery of active ingredients.</dd>
+                    <dd className="inline"> The molecular structure of our extract allows for deeper penetration into the scalp and hair follicles, with up to 5 times better absorption compared to traditional extraction methods.</dd>
+                  </div>
+                  <div className="relative pl-9">
+                    <dt className="inline font-semibold text-gray-900">
+                      <svg className="absolute left-1 top-1 h-5 w-5 text-violet-700" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <path fillRule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clipRule="evenodd" />
+                      </svg>
+                      Non-Toxic to Cells.
+                    </dt>
+                    <dd className="inline"> Our PLM extracts are certified by KFDA and OECD as non-toxic cellular organizations, making them safe for even the most sensitive scalps.</dd>
                   </div>
                 </dl>
               </div>
@@ -75,8 +84,98 @@ export default function Science() {
         </div>
       </div>
 
-      {/* Certifications Section */}
+      {/* Extraction Comparison Section */}
       <div className="bg-gray-50 py-24 sm:py-32">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          <div className="mx-auto max-w-2xl lg:text-center">
+            <h2 className="text-base font-semibold leading-7 text-violet-700">Extraction Comparison</h2>
+            <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+              PLM vs. Traditional Extraction
+            </p>
+            <p className="mt-6 text-lg leading-8 text-gray-600">
+              Even with the same raw materials, the extraction method makes a significant difference in efficacy.
+            </p>
+          </div>
+          
+          <div className="mx-auto mt-16 max-w-2xl rounded-3xl ring-1 ring-gray-200 sm:mt-20 lg:mx-0 lg:flex lg:max-w-none">
+            <div className="p-8 sm:p-10 lg:flex-auto">
+              <h3 className="text-2xl font-bold tracking-tight text-gray-900">Traditional Extraction</h3>
+              <p className="mt-6 text-base leading-7 text-gray-600">
+                Most shampoos use traditional hot water or alcohol-based extraction methods, which have significant limitations:
+              </p>
+              <div className="mt-10 flex items-center gap-x-4">
+                <h4 className="flex-none text-sm font-semibold leading-6 text-violet-700">Limitations</h4>
+                <div className="h-px flex-auto bg-gray-100"></div>
+              </div>
+              <ul className="mt-8 grid grid-cols-1 gap-4 text-sm leading-6 text-gray-600 sm:grid-cols-2 sm:gap-6">
+                <li className="flex gap-x-3">
+                  <svg className="h-6 w-5 flex-none text-violet-700" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-5a.75.75 0 01.75.75v4.5a.75.75 0 01-1.5 0v-4.5A.75.75 0 0110 5zm0 10a1 1 0 100-2 1 1 0 000 2z" clipRule="evenodd" />
+                  </svg>
+                  High molecular weight limits cellular absorption
+                </li>
+                <li className="flex gap-x-3">
+                  <svg className="h-6 w-5 flex-none text-violet-700" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-5a.75.75 0 01.75.75v4.5a.75.75 0 01-1.5 0v-4.5A.75.75 0 0110 5zm0 10a1 1 0 100-2 1 1 0 000 2z" clipRule="evenodd" />
+                  </svg>
+                  Significant destruction of active ingredients
+                </li>
+                <li className="flex gap-x-3">
+                  <svg className="h-6 w-5 flex-none text-violet-700" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-5a.75.75 0 01.75.75v4.5a.75.75 0 01-1.5 0v-4.5A.75.75 0 0110 5zm0 10a1 1 0 100-2 1 1 0 000 2z" clipRule="evenodd" />
+                  </svg>
+                  Possible pesticides, heavy metals, and toxic residues
+                </li>
+                <li className="flex gap-x-3">
+                  <svg className="h-6 w-5 flex-none text-violet-700" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-5a.75.75 0 01.75.75v4.5a.75.75 0 01-1.5 0v-4.5A.75.75 0 0110 5zm0 10a1 1 0 100-2 1 1 0 000 2z" clipRule="evenodd" />
+                  </svg>
+                  Mostly water with minimal active ingredients
+                </li>
+              </ul>
+            </div>
+            <div className="p-8 sm:p-10 lg:flex-auto bg-violet-50 rounded-3xl">
+              <h3 className="text-2xl font-bold tracking-tight text-gray-900">PLM Special Extraction</h3>
+              <p className="mt-6 text-base leading-7 text-gray-600">
+                Our solvent-free, waterless, low-temperature PLM extraction method offers significant advantages:
+              </p>
+              <div className="mt-10 flex items-center gap-x-4">
+                <h4 className="flex-none text-sm font-semibold leading-6 text-violet-700">Advantages</h4>
+                <div className="h-px flex-auto bg-gray-100"></div>
+              </div>
+              <ul className="mt-8 grid grid-cols-1 gap-4 text-sm leading-6 text-gray-600 sm:grid-cols-2 sm:gap-6">
+                <li className="flex gap-x-3">
+                  <svg className="h-6 w-5 flex-none text-violet-700" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fillRule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clipRule="evenodd" />
+                  </svg>
+                  Low molecular weight for 5x better absorption
+                </li>
+                <li className="flex gap-x-3">
+                  <svg className="h-6 w-5 flex-none text-violet-700" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fillRule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clipRule="evenodd" />
+                  </svg>
+                  Complete preservation of active ingredients
+                </li>
+                <li className="flex gap-x-3">
+                  <svg className="h-6 w-5 flex-none text-violet-700" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fillRule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clipRule="evenodd" />
+                  </svg>
+                  No harmful substances (pesticides, heavy metals)
+                </li>
+                <li className="flex gap-x-3">
+                  <svg className="h-6 w-5 flex-none text-violet-700" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fillRule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clipRule="evenodd" />
+                  </svg>
+                  Non-toxic to cells and certified safe
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Certifications Section */}
+      <div className="bg-white py-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:text-center">
             <h2 className="text-base font-semibold leading-7 text-violet-700">Verified Quality</h2>
@@ -125,7 +224,7 @@ export default function Science() {
                   OECD Tested
                 </dt>
                 <dd className="mt-2 text-base leading-7 text-gray-600">
-                  Our product has undergone testing according to the Organization for Economic Co-operation and Development guidelines for safety and efficacy.
+                  Our PLM extracts are certified by the Organization for Economic Co-operation and Development as non-toxic cellular organizations.
                 </dd>
               </div>
               <div className="relative pl-16">
@@ -135,10 +234,10 @@ export default function Science() {
                       <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z" />
                     </svg>
                   </div>
-                  Multiple Patents
+                  Scientific Research
                 </dt>
                 <dd className="mt-2 text-base leading-7 text-gray-600">
-                  Our extraction method and formula are protected by multiple international patents, recognizing the uniqueness and innovation of our technology.
+                  The effectiveness of our PLM extraction method has been validated through international papers and research, showing up to 5 times better absorption rates.
                 </dd>
               </div>
             </dl>
